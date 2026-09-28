@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Naturaleza Digital - Inventario</title>
+</head>
+<body>
+
+  <!-- MÓDULO 05: ENCABEZADO Y NAVEGACIÓN -->
+  <header>
+    <h1>Naturaleza Digital - Cuidado del Medio Ambiente</h1>
+    <p>Aprende a separar, reducir y reciclar la basura en tu escuela</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="residuos.html">Tipos de Residuos</a></li>
+        <li><a href="guia.html">Guía Práctica</a></li>
+        <li><a href="galeria.html">Galería de Fotos</a></li>
+        <li><a href="inventario.html">Inventario de Botes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- MÓDULO 07: INVENTARIO, BITÁCORA Y FORMULARIO (TU MÓDULO COMPLETO) -->
+    <section>
+      <h2>Lista de Estaciones y Botes de Reciclaje</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Estación</th>
+            <th>¿Dónde está ubicada?</th>
+            <th>Botes que tiene</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Estación 1</td>
+            <td>Entrada principal</td>
+            <td>Verde, Azul, Amarillo, Gris</td>
+            <td>Completa</td>
+          </tr>
+          <tr>
+            <td>Estación 2</td>
+            <td>Patio central / Cooperativa</td>
+            <td>Verde, Azul, Amarillo</td>
+            <td>Completa</td>
+          </tr>
+          <tr>
+            <td>Estación 3</td>
+            <td>Pasillo de salones de primaria</td>
+            <td>Amarillo, Gris</td>
+            <td>Falta bote verde</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Bitácora de Pesaje de Reciclaje por Salón</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Tipo de Basura Recolectada</th>
+            <th>Peso (Kilos)</th>
+            <th>Grupo Responsable</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/03/2026</td>
+            <td>Botellas de plástico (PET)</td>
+            <td>4.2 kg</td>
+            <td>Grupo de 6° A</td>
+          </tr>
+          <tr>
+            <td>10/03/2026</td>
+            <td>Papel y cuadernos viejos</td>
+            <td>6.8 kg</td>
+            <td>Grupo de 6° B</td>
+          </tr>
+          <tr>
+            <td>17/03/2026</td>
+            <td>Cáscaras de fruta (Orgánico)</td>
+            <td>9.5 kg</td>
+            <td>Grupo de 5° A</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Registro de Reportes o Nuevas Propuestas</h2>
+      <p>Anota aquí si falta algún bote en tu pasillo o si quieres proponer una idea:</p>
+      
+      <form action="#" method="get">
+        <label for="nombre">Nombre del Alumno(a):</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="grado">Tu Grado y Grupo:</label><br>
+        <select id="grado" name="grado">
+          <option value="1a">1er Grado</option>
+          <option value="2a">2do Grado</option>
+          <option value="3a">3er Grado</option>
+          <option value="4a">4to Grado</option>
+          <option value="5a">5to Grado</option>
+          <option value="6a">6to Grado</option>
+        </select><br><br>
+
+        <label for="reporte">¿Qué quieres reportar o proponer?:</label><br>
+        <select id="reporte" name="reporte">
+          <option value="bote_lleno">Bote de basura muy lleno</option>
+          <option value="bote_falta">Falta un bote en mi pasillo</option>
+          <option value="propuesta">Tengo una idea para reciclar</option>
+        </select><br><br>
+
+        <label for="comentario">Escribe tu mensaje:</label><br>
+        <textarea id="comentario" name="comentario" rows="3" cols="35"></textarea><br><br>
+
+        <button type="submit">Enviar Reporte</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- MÓDULO 06: PIE DE PÁGINA -->
+  <footer>
+    <p>Naturaleza Digital - Escuela Primaria y Secundaria</p>
+    <p>Cuidemos juntos el medio ambiente</p>
+  </footer>
+
+</body>
+</html>
